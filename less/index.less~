@@ -63,9 +63,7 @@ html, body {
 .flex-45() {
 	flex-basis: 45%
 }
-.flex-me() {
-	display: flex;
-}
+
 
 body {
 
@@ -89,7 +87,7 @@ body {
 	}
 
 	nav {
-		.flex-me()
+		display: flex;
 		justify-content: flex-end;
 		margin-bottom: 30px;
 
@@ -143,7 +141,7 @@ body {
 	}
 
 	.flex-container {
-		.flex-me();
+		display: flex;
 		justify-content: space-between;
 	}
 

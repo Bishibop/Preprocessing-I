@@ -60,22 +60,22 @@
 				<th>Skills Used</th>
 			</tr>
 			<tr>
-				<td>2</td>
-				<td>Uploadcare</td>
-				<td>Growth Marketer</td>
-				<td>Copywriting, Email marketing</td>
+				<th>2</th>
+				<th>Uploadcare</th>
+				<th>Growth Marketer</th>
+				<th>Copywriting, Email marketing</th>
 			</tr>
 			<tr>
-				<td>2</td>
-				<td>Freelance</td>
-				<td>Copywriter</td>
-				<td>Copywriting, Customer research</td>
+				<th>2</th>
+				<th>Freelance</th>
+				<th>Copywriter</th>
+				<th>Copywriting, Customer research</th>
 			</tr>
 			<tr>
-				<td>3</td>
-				<td>Freelance</td>
-				<td>Math Tutor</td>
-				<td>Communication</td>
+				<th>3</th>
+				<th>Freelance</th>
+				<th>Math Tutor</th>
+				<th>Communication</th>
 			</tr>
 		</table>
 	</section>
