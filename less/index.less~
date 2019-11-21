@@ -60,13 +60,14 @@ html, body {
 @border-grey: #d1d4d7;
 @light-background-grey: #e9ecef;
 @dark-background-grey: #808080;
-@alata: 'Alata', sans-serif;
-
 .flex-45() {
 	flex-basis: 45%
 }
 .flex-me() {
 	display: flex;
+}
+.font-alata() {
+	font-family: 'Alata', sans-serif;
 }
 
 // So this I thought was actually a good use for mixins even on a tiny site like this.
@@ -88,20 +89,20 @@ body {
 
 	h1 {
 		font-size: 36px;
-		font-family: @alata;
+		.font-alata();
 	}
 
 	h2 {
 		font-size: 30px;
 		font-weight: bold;
-		font-family: @alata;
+		.font-alata();
 	}
 
 	h3 {
 		font-size: 26px;
 		font-weight: bold;
 		margin-bottom: 10px;
-		font-family: @alata;
+		.font-alata();
 	}
 
 	p {
