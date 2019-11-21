@@ -66,6 +66,9 @@ html, body {
 .flex-me() {
 	display: flex;
 }
+.font-alata() {
+	font-family: 'Alata', sans-serif;
+}
 
 // So this I thought was actually a good use for mixins even on a tiny site like this.
 // Would allow me to tweak the max-width parameter in a single place if I ever wanted to.
@@ -86,16 +89,24 @@ body {
 
 	h1 {
 		font-size: 36px;
+		.font-alata();
 	}
 
 	h2 {
 		font-size: 30px;
 		font-weight: bold;
+		.font-alata();
 	}
 
 	h3 {
 		font-size: 26px;
 		font-weight: bold;
+		margin-bottom: 10px;
+		.font-alata();
+	}
+
+	p {
+		line-height: 1.3;
 	}
 
 	nav {
@@ -209,7 +220,6 @@ body {
 		});
 
 		ul {
-			margin-top: 10px;
 			border: 1px solid @border-grey;
 			border-radius: 3px;
 		}
